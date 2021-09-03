@@ -1,7 +1,7 @@
 import React from "react";
 import "./Forms.css";
 import { useState } from "react";
-import { useMediaQuery } from 'react-responsive'
+import { useMediaQuery } from 'react-responsive';
 
 const Form = ({ setInputText, todos, setTodos, inputText, setStatus }) => {
   const isDesktopOrLaptop = useMediaQuery({
