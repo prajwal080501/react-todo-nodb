@@ -1,0 +1,61 @@
+.todo {
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  padding: 5px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+  transition: height, box-shadow;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  border:1px solid rgb(8, 94, 255);
+  
+}
+.todo:hover {
+  transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.041);
+}
+
+.delete-btn {
+  border: 2px solid red;
+  color: red;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.delete-btn:hover {
+  transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  color: white;
+  background-color: red;
+}
+.complete-btn {
+  border: 2px solid rgb(15, 224, 15);
+  margin: 5px;
+  padding: 5px;
+  color: rgb(15, 224, 15);
+  border-radius: 10px;
+}
+
+.complete-btn:hover {
+  background-color: rgb(15, 224, 15);
+  color: white;
+  transition: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.todo-item {
+  background-color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: left;
+  color:rgb(8, 94, 255);
+}
